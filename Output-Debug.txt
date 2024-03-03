@@ -1,0 +1,471 @@
+﻿'Exp2DoubleBuffer.exe' (Win32): Loaded 'D:\Computer Graphics Ray Tracing 2022-3-12--\ComputerGraphicsMFC20240227\ComputerGraphicsMFC2024\Debug\Exp2DoubleBuffer.exe'. Symbols loaded.
+'Exp2DoubleBuffer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\ntdll.dll'. Cannot find or open the PDB file.
+'Exp2DoubleBuffer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\kernel32.dll'. Cannot find or open the PDB file.
+'Exp2DoubleBuffer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\KernelBase.dll'. Cannot find or open the PDB file.
+'Exp2DoubleBuffer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\user32.dll'. Cannot find or open the PDB file.
+'Exp2DoubleBuffer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\win32u.dll'. Cannot find or open the PDB file.
+'Exp2DoubleBuffer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\gdi32.dll'. Cannot find or open the PDB file.
+'Exp2DoubleBuffer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\gdi32full.dll'. Cannot find or open the PDB file.
+'Exp2DoubleBuffer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\mfc140ud.dll'. Cannot find or open the PDB file.
+'Exp2DoubleBuffer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\msvcp_win.dll'. Cannot find or open the PDB file.
+'Exp2DoubleBuffer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\advapi32.dll'. Cannot find or open the PDB file.
+'Exp2DoubleBuffer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\ucrtbase.dll'. Cannot find or open the PDB file.
+'Exp2DoubleBuffer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\msvcrt.dll'. Cannot find or open the PDB file.
+'Exp2DoubleBuffer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\sechost.dll'. Cannot find or open the PDB file.
+'Exp2DoubleBuffer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\bcrypt.dll'. Cannot find or open the PDB file.
+'Exp2DoubleBuffer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\oleaut32.dll'. Cannot find or open the PDB file.
+'Exp2DoubleBuffer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\rpcrt4.dll'. Cannot find or open the PDB file.
+'Exp2DoubleBuffer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\combase.dll'. Cannot find or open the PDB file.
+'Exp2DoubleBuffer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\ole32.dll'. Cannot find or open the PDB file.
+'Exp2DoubleBuffer.exe' (Win32): Loaded 'C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.22621.2506_none_6eb991c088050a06\comctl32.dll'. Cannot find or open the PDB file.
+'Exp2DoubleBuffer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\shlwapi.dll'. Cannot find or open the PDB file.
+'Exp2DoubleBuffer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\imm32.dll'. Cannot find or open the PDB file.
+'Exp2DoubleBuffer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\vcruntime140d.dll'. Cannot find or open the PDB file.
+'Exp2DoubleBuffer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\ucrtbased.dll'. Cannot find or open the PDB file.
+'Exp2DoubleBuffer.exe' (Win32): Loaded 'C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.22621.3085_none_9faca057e290307d\GdiPlus.dll'. Cannot find or open the PDB file.
+'Exp2DoubleBuffer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\uxtheme.dll'. Cannot find or open the PDB file.
+'Exp2DoubleBuffer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\bcryptprimitives.dll'. Cannot find or open the PDB file.
+'Exp2DoubleBuffer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\kernel.appcore.dll'. Cannot find or open the PDB file.
+'Exp2DoubleBuffer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\msctf.dll'. Cannot find or open the PDB file.
+'Exp2DoubleBuffer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\TextShaping.dll'. Cannot find or open the PDB file.
+clientcore\windows\advcore\ctf\uim\tim.cpp(800)\MSCTF.dll!7691246A: (caller: 7690DC20) LogHr(1) tid(138d8) 8007029C An assertion failure has occurred.
+clientcore\windows\advcore\ctf\uim\tim.cpp(800)\MSCTF.dll!7691246A: (caller: 7690DC20) LogHr(2) tid(138d8) 8007029C An assertion failure has occurred.
+'Exp2DoubleBuffer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\TextInputFramework.dll'. Cannot find or open the PDB file.
+'Exp2DoubleBuffer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\CoreMessaging.dll'. Cannot find or open the PDB file.
+'Exp2DoubleBuffer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\CoreUIComponents.dll'. Cannot find or open the PDB file.
+'Exp2DoubleBuffer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\WinTypes.dll'. Cannot find or open the PDB file.
+'Exp2DoubleBuffer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\cryptbase.dll'. Cannot find or open the PDB file.
+'Exp2DoubleBuffer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\clbcatq.dll'. Cannot find or open the PDB file.
+'Exp2DoubleBuffer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\SogouTSF.ime'. Cannot find or open the PDB file.
+'Exp2DoubleBuffer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\shell32.dll'. Cannot find or open the PDB file.
+'Exp2DoubleBuffer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\msimg32.dll'. Cannot find or open the PDB file.
+'Exp2DoubleBuffer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\version.dll'. Cannot find or open the PDB file.
+'Exp2DoubleBuffer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\winmm.dll'. Cannot find or open the PDB file.
+'Exp2DoubleBuffer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\windows.storage.dll'. Cannot find or open the PDB file.
+'Exp2DoubleBuffer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\SHCore.dll'. Cannot find or open the PDB file.
+'Exp2DoubleBuffer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\SogouPY.ime'. Cannot find or open the PDB file.
+'Exp2DoubleBuffer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\ws2_32.dll'. Cannot find or open the PDB file.
+'Exp2DoubleBuffer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\crypt32.dll'. Cannot find or open the PDB file.
+'Exp2DoubleBuffer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\oleacc.dll'. Cannot find or open the PDB file.
+'Exp2DoubleBuffer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\winhttp.dll'. Cannot find or open the PDB file.
+'Exp2DoubleBuffer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\ntmarta.dll'. Cannot find or open the PDB file.
+'Exp2DoubleBuffer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\profapi.dll'. Cannot find or open the PDB file.
+'Exp2DoubleBuffer.exe' (Win32): Loaded 'C:\Program Files (x86)\SogouInput\Components\MobileInput\1.0.0.88\MobileInput.dll'. Cannot find or open the PDB file.
+'Exp2DoubleBuffer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\wininet.dll'. Cannot find or open the PDB file.
+'Exp2DoubleBuffer.exe' (Win32): Loaded 'C:\Program Files (x86)\SogouInput\Components\biz_center\1.0.0.2227\biz_bundle.dll'. Cannot find or open the PDB file.
+'Exp2DoubleBuffer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\psapi.dll'. Cannot find or open the PDB file.
+'Exp2DoubleBuffer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\userenv.dll'. Cannot find or open the PDB file.
+'Exp2DoubleBuffer.exe' (Win32): Loaded 'C:\Program Files (x86)\SogouInput\13.12.0.8761\Resource.dll'. Cannot find or open the PDB file.
+'Exp2DoubleBuffer.exe' (Win32): Unloaded 'C:\Program Files (x86)\SogouInput\13.12.0.8761\Resource.dll'
+'Exp2DoubleBuffer.exe' (Win32): Loaded 'C:\Program Files (x86)\SogouInput\13.12.0.8761\Resource.dll'. Cannot find or open the PDB file.
+'Exp2DoubleBuffer.exe' (Win32): Loaded 'C:\Program Files (x86)\SogouInput\Components\PicFace\1.1.0.2129\PicFace.dll'. Cannot find or open the PDB file.
+'Exp2DoubleBuffer.exe' (Win32): Unloaded 'C:\Program Files (x86)\SogouInput\Components\PicFace\1.1.0.2129\PicFace.dll'
+'Exp2DoubleBuffer.exe' (Win32): Loaded 'C:\Program Files (x86)\SogouInput\Components\PicFace\1.1.0.2129\PicFace.dll'. Cannot find or open the PDB file.
+'Exp2DoubleBuffer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\comdlg32.dll'. Cannot find or open the PDB file.
+'Exp2DoubleBuffer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\dwmapi.dll'. Cannot find or open the PDB file.
+The thread 0x133fc has exited with code 0 (0x0).
+redraw the client region
+'Exp2DoubleBuffer.exe' (Win32): Loaded 'C:\Program Files (x86)\Sangfor\SSL\SangforPWEx\SangforUDProtectEx_202351595214224.dll'. Cannot find or open the PDB file.
+'Exp2DoubleBuffer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\wintrust.dll'. Cannot find or open the PDB file.
+'Exp2DoubleBuffer.exe' (Win32): Loaded 'C:\Program Files (x86)\Sangfor\SSL\SangforPWEx\sangforvpnlibcrypto-1_1.dll'. Cannot find or open the PDB file.
+'Exp2DoubleBuffer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\wtsapi32.dll'. Cannot find or open the PDB file.
+'Exp2DoubleBuffer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\msasn1.dll'. Cannot find or open the PDB file.
+The thread 0x14d58 has exited with code 0 (0x0).
+D:\a\_work\1\s\src\vctools\VC7Libs\Ship\ATLMFC\Src\MFC\winfrm.cpp(1632) : AppMsg - Warning: no message line prompt for ID 0x8010.
+this->isPlaying: 1playing animation 
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+redraw the client region
+redraw the client region
+redraw the client region
+redraw the client region
+redraw the client region
+redraw the client region
+redraw the client region
+redraw the client region
+redraw the client region
+redraw the client region
+redraw the client region
+redraw the client region
+redraw the client region
+redraw the client region
+redraw the client region
+redraw the client region
+redraw the client region
+redraw the client region
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+The thread 0x13e20 has exited with code 0 (0x0).
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+3000ms
+redraw the client region
+D:\a\_work\1\s\src\vctools\VC7Libs\Ship\ATLMFC\Src\MFC\winfrm.cpp(1632) : AppMsg - Warning: no message line prompt for ID 0x8010.
+3000ms
+redraw the client region
+this->isPlaying: 0playing animation 
+D:\a\_work\1\s\src\vctools\VC7Libs\Ship\ATLMFC\Src\MFC\winfrm.cpp(1632) : AppMsg - Warning: no message line prompt for ID 0x8009.
+D:\a\_work\1\s\src\vctools\VC7Libs\Ship\ATLMFC\Src\MFC\winfrm.cpp(1632) : AppMsg - Warning: no message line prompt for ID 0x800A.
+D:\a\_work\1\s\src\vctools\VC7Libs\Ship\ATLMFC\Src\MFC\winfrm.cpp(1632) : AppMsg - Warning: no message line prompt for ID 0x800B.
+D:\a\_work\1\s\src\vctools\VC7Libs\Ship\ATLMFC\Src\MFC\winfrm.cpp(1632) : AppMsg - Warning: no message line prompt for ID 0x800A.
+D:\a\_work\1\s\src\vctools\VC7Libs\Ship\ATLMFC\Src\MFC\winfrm.cpp(1632) : AppMsg - Warning: no message line prompt for ID 0x8009.
+1S timer
+D:\a\_work\1\s\src\vctools\VC7Libs\Ship\ATLMFC\Src\MFC\winfrm.cpp(1632) : AppMsg - Warning: no message line prompt for ID 0x8009.
+D:\a\_work\1\s\src\vctools\VC7Libs\Ship\ATLMFC\Src\MFC\winfrm.cpp(1632) : AppMsg - Warning: no message line prompt for ID 0x800A.
+D:\a\_work\1\s\src\vctools\VC7Libs\Ship\ATLMFC\Src\MFC\winfrm.cpp(1632) : AppMsg - Warning: no message line prompt for ID 0x800B.
+'Exp2DoubleBuffer.exe' (Win32): Unloaded 'C:\Windows\SysWOW64\SogouTSF.ime'
+The thread 0x16198 has exited with code 0 (0x0).
+The thread 0x161b8 has exited with code 0 (0x0).
+The thread 0x16064 has exited with code 0 (0x0).
+The thread 0xaa08 has exited with code 0 (0x0).
+The thread 0x12b44 has exited with code 0 (0x0).
+'Exp2DoubleBuffer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\cryptsp.dll'. Cannot find or open the PDB file.
+'Exp2DoubleBuffer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\rsaenh.dll'. Cannot find or open the PDB file.
+The program '[86816] Exp2DoubleBuffer.exe' has exited with code 0 (0x0).

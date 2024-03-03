@@ -1,37 +1,38 @@
 
-// ComputerGraphicsMFC2024.cpp : Defines the class behaviors for the application.
+// Exp2DoubleBuffer.cpp : Defines the class behaviors for the application.
 //
 
 #include "pch.h"
 #include "framework.h"
 #include "afxwinappex.h"
 #include "afxdialogex.h"
-#include "ComputerGraphicsMFC2024.h"
+#include "Exp2DoubleBuffer.h"
 #include "MainFrm.h"
 
-#include "ComputerGraphicsMFC2024Doc.h"
-#include "ComputerGraphicsMFC2024View.h"
+#include "Exp2DoubleBufferDoc.h"
+#include "Exp2DoubleBufferView.h"
 
 #ifdef _DEBUG
 #define new DEBUG_NEW
 #endif
 
 
-// CComputerGraphicsMFC2024App
+// CExp2DoubleBufferApp
 
-BEGIN_MESSAGE_MAP(CComputerGraphicsMFC2024App, CWinApp)
-	ON_COMMAND(ID_APP_ABOUT, &CComputerGraphicsMFC2024App::OnAppAbout)
+BEGIN_MESSAGE_MAP(CExp2DoubleBufferApp, CWinApp)
+	ON_COMMAND(ID_APP_ABOUT, &CExp2DoubleBufferApp::OnAppAbout)
 	// Standard file based document commands
 	ON_COMMAND(ID_FILE_NEW, &CWinApp::OnFileNew)
 	ON_COMMAND(ID_FILE_OPEN, &CWinApp::OnFileOpen)
 	// Standard print setup command
 	ON_COMMAND(ID_FILE_PRINT_SETUP, &CWinApp::OnFilePrintSetup)
+
 END_MESSAGE_MAP()
 
 
-// CComputerGraphicsMFC2024App construction
+// CExp2DoubleBufferApp construction
 
-CComputerGraphicsMFC2024App::CComputerGraphicsMFC2024App() noexcept
+CExp2DoubleBufferApp::CExp2DoubleBufferApp() noexcept
 {
 	// support Restart Manager
 	m_dwRestartManagerSupportFlags = AFX_RESTART_MANAGER_SUPPORT_ALL_ASPECTS;
@@ -44,20 +45,20 @@ CComputerGraphicsMFC2024App::CComputerGraphicsMFC2024App() noexcept
 
 	// TODO: replace application ID string below with unique ID string; recommended
 	// format for string is CompanyName.ProductName.SubProduct.VersionInformation
-	SetAppID(_T("ComputerGraphicsMFC2024.AppID.NoVersion"));
+	SetAppID(_T("Exp2DoubleBuffer.AppID.NoVersion"));
 
 	// TODO: add construction code here,
 	// Place all significant initialization in InitInstance
 }
 
-// The one and only CComputerGraphicsMFC2024App object
+// The one and only CExp2DoubleBufferApp object
 
-CComputerGraphicsMFC2024App theApp;
+CExp2DoubleBufferApp theApp;
 
 
-// CComputerGraphicsMFC2024App initialization
+// CExp2DoubleBufferApp initialization
 
-BOOL CComputerGraphicsMFC2024App::InitInstance()
+BOOL CExp2DoubleBufferApp::InitInstance()
 {
 	// InitCommonControlsEx() is required on Windows XP if an application
 	// manifest specifies use of ComCtl32.dll version 6 or later to enable
@@ -102,9 +103,9 @@ BOOL CComputerGraphicsMFC2024App::InitInstance()
 	CSingleDocTemplate* pDocTemplate;
 	pDocTemplate = new CSingleDocTemplate(
 		IDR_MAINFRAME,
-		RUNTIME_CLASS(CComputerGraphicsMFC2024Doc),
+		RUNTIME_CLASS(CExp2DoubleBufferDoc),
 		RUNTIME_CLASS(CMainFrame),       // main SDI frame window
-		RUNTIME_CLASS(CComputerGraphicsMFC2024View));
+		RUNTIME_CLASS(CExp2DoubleBufferView));
 	if (!pDocTemplate)
 		return FALSE;
 	AddDocTemplate(pDocTemplate);
@@ -122,13 +123,16 @@ BOOL CComputerGraphicsMFC2024App::InitInstance()
 		return FALSE;
 
 	// The one and only window has been initialized, so show and update it
-	m_pMainWnd->SetWindowPos(NULL, 0, 0, 960, 540, SWP_NOMOVE);
+	m_pMainWnd->SetWindowPos(NULL,0,0,960,540,SWP_NOMOVE);
 	m_pMainWnd->ShowWindow(SW_SHOW);
 	m_pMainWnd->UpdateWindow();
+
+	// settimer 1 
+	//SetTimer(*m_pMainWnd,1, 3000, NULL);
 	return TRUE;
 }
 
-int CComputerGraphicsMFC2024App::ExitInstance()
+int CExp2DoubleBufferApp::ExitInstance()
 {
 	//TODO: handle additional resources you may have added
 	AfxOleTerm(FALSE);
@@ -136,7 +140,7 @@ int CComputerGraphicsMFC2024App::ExitInstance()
 	return CWinApp::ExitInstance();
 }
 
-// CComputerGraphicsMFC2024App message handlers
+// CExp2DoubleBufferApp message handlers
 
 
 // CAboutDlg dialog used for App About
@@ -172,13 +176,15 @@ BEGIN_MESSAGE_MAP(CAboutDlg, CDialogEx)
 END_MESSAGE_MAP()
 
 // App command to run the dialog
-void CComputerGraphicsMFC2024App::OnAppAbout()
+void CExp2DoubleBufferApp::OnAppAbout()
 {
 	CAboutDlg aboutDlg;
 	aboutDlg.DoModal();
 }
 
-// CComputerGraphicsMFC2024App message handlers
+// CExp2DoubleBufferApp message handlers
+
+
 
 
 
