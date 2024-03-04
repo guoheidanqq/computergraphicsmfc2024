@@ -118,6 +118,7 @@ void CExp2DoubleBufferView::OnDraw(CDC* pDC)
 	bgBitmap.CreateCompatibleBitmap(pDC, width, height);
 	pOldBitmap = bgCDC.SelectObject(&bgBitmap);
 
+
 	this->BkOnDraw(&bgCDC);
 	pDC->BitBlt(0,0,width,height,&bgCDC,0,0,SRCCOPY);
 
