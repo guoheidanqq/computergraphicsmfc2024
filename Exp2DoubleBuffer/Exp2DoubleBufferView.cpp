@@ -45,7 +45,15 @@ CExp2DoubleBufferView::CExp2DoubleBufferView() noexcept
 {
 	// TODO: add construction code here
 
-	//this->SetTimer(1,3000,NULL);
+	sphere1.SetRadius(50);
+	sphere1.SetPosition(50, 50);
+
+	sphere2.SetRadius(50);
+	sphere2.SetPosition(150,50);
+
+	sphere3.SetRadius(50);
+	sphere3.SetPosition(300,300);
+	
 
 }
 
@@ -80,15 +88,20 @@ void CExp2DoubleBufferView::BkOnDraw(CDC * bgCDC)
 	int blue = rand() % 256;
 	CBrush whiteBrush(RGB(red, green, blue));
 	pDC->SelectObject(whiteBrush);
-	pDC->Ellipse(0, 0, 100, 100);
-	pDC->Ellipse(100, 0, 200, 100);
 
-	int cx = 300;
-	int cy = 300;
-	int r = 50;
-	CPoint p0(cx - r, cy - r);
-	CPoint p1(cx + r, cy + r);
-	pDC->Ellipse(CRect(p0, p1));
+	//MySphere sphere1(50,50,50);
+	//MySphere sphere2(150,50,50);
+	//MySphere sphere3(300, 300,50);
+	sphere1.Draw(pDC);
+	sphere2.Draw(pDC);
+	sphere3.Draw(pDC);
+	int radius = sphere3.GetRadius() + 5;
+	sphere3.SetRadius(radius);
+
+
+	
+
+
 }
 
 // CExp2DoubleBufferView drawing

@@ -4,9 +4,16 @@
 
 #pragma once
 #include "MainFrm.h"
+#include "MySphere.h"
 
 class CExp2DoubleBufferView : public CView
 {
+private:
+	MySphere sphere1;
+	MySphere sphere2;
+	MySphere sphere3;
+
+
 protected: // create from serialization only
 	CExp2DoubleBufferView() noexcept;
 	DECLARE_DYNCREATE(CExp2DoubleBufferView)
